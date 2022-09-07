@@ -1,11 +1,11 @@
 <?php
 session_start();
 if(isset($_SESSION['username'])){
-    echo "<h1> ini Halaman Admin </user>";
+    echo "<h1> Halaman Admin </h1>";
+    echo "Welcome, ";
     echo $_SESSION["username"];
 }
 ?>
- ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
