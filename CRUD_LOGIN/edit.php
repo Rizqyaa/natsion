@@ -17,7 +17,7 @@ $data = $query->fetch();
     <input type="hidden" name="id" value="<?= $id ?>">
     <div class="col-auto">
             <label class="form-label">Username</label>
-            <input type="text" name="username" class="form-control" placeholder="username" value="<?= $data['nama'] ?>">
+            <input type="text" name="username" class="form-control" placeholder="username" value="<?= $data['username'] ?>">
         </div>
         <div class="col-auto">
             <label for="" class="form-label">Password</label>
